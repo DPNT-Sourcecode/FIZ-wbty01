@@ -1,15 +1,15 @@
-﻿using BeFaster.App.Solutions.SUM;
+﻿using BeFaster.App.Solutions.FIZ;
 using NUnit.Framework;
 
-namespace BeFaster.App.Tests.Solutions.SUM
+namespace BeFaster.App.Tests.Solutions.FIZ
 {
     [TestFixture]
-    public class SumSolutionTest
+    public class FizBuzSolutionTest
     {
-        [TestCase(1, 1, ExpectedResult = 2)]
-        public int ComputeSum(int x, int y)
+        [TestCase(1, ExpectedResult = "1")]
+        public string fizz_buzz_test1(int x)
         {
-            return SumSolution.Sum(x, y);
+            return FizzBuzzSolution.fizz_buzz(x);
         }
     }
 }

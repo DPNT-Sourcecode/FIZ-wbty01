@@ -4,7 +4,7 @@ namespace BeFaster.App.Solutions.FIZ
 {
     public static class FizzBuzzSolution
     {
-        public static string FizzBuzz(int number)
+        public static string fizz_buzz(int number)
         {
             var result = "";
             if ((number % 3) == 0) result = "fizz";
