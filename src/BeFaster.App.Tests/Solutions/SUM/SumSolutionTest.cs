@@ -11,5 +11,11 @@ namespace BeFaster.App.Tests.Solutions.SUM
         {
             return SumSolution.Sum(x, y);
         }
+
+        [TestCase(99999999999999, 1, ExpectedResult = 0)]
+        public int ComputeSum2(int x, int y)
+        {
+            return SumSolution.Sum(x, y);
+        }
     }
 }
