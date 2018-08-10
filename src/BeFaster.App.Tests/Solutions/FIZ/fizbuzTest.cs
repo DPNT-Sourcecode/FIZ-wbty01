@@ -26,7 +26,7 @@ namespace BeFaster.App.Tests.Solutions.FIZ
         {
             return FizzBuzzSolution.fizz_buzz(x);
         }
-        [TestCase(9999, ExpectedResult = "fizz")]
+        [TestCase(9999, ExpectedResult = "fizz deluxe")]
         public string fizz_buzz_test5(int x)
         {
             return FizzBuzzSolution.fizz_buzz(x);
@@ -38,7 +38,7 @@ namespace BeFaster.App.Tests.Solutions.FIZ
             return FizzBuzzSolution.fizz_buzz(x);
         }
 
-        [TestCase(1111, ExpectedResult = "1111")]
+        [TestCase(1111, ExpectedResult = "deluxe")]
         public string fizz_buzz_test7(int x)
         {
             return FizzBuzzSolution.fizz_buzz(x);
@@ -50,7 +50,7 @@ namespace BeFaster.App.Tests.Solutions.FIZ
             return FizzBuzzSolution.fizz_buzz(x);
         }
 
-        [TestCase(7531, ExpectedResult = "fizz buzz")]
+        [TestCase(555, ExpectedResult = "fizz buzz deluxe")]
         public string fizz_buzz_test9(int x)
         {
             return FizzBuzzSolution.fizz_buzz(x);
