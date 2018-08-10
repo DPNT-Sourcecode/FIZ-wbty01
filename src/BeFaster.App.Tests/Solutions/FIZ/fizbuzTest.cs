@@ -44,5 +44,17 @@ namespace BeFaster.App.Tests.Solutions.FIZ
             return FizzBuzzSolution.fizz_buzz(x);
         }
 
+        [TestCase(7231, ExpectedResult = "fizz")]
+        public string fizz_buzz_test8(int x)
+        {
+            return FizzBuzzSolution.fizz_buzz(x);
+        }
+
+        [TestCase(7531, ExpectedResult = "fizz buzz")]
+        public string fizz_buzz_test9(int x)
+        {
+            return FizzBuzzSolution.fizz_buzz(x);
+        }
+
     }
 }
