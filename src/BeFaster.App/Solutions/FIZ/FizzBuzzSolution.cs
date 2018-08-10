@@ -6,7 +6,11 @@ namespace BeFaster.App.Solutions.FIZ
     {
         public static string FizzBuzz(int number)
         {
-            throw new SolutionNotImplementedException();
+            var result = "";
+            if ((number % 3) == 0) result = "fizz";
+            if ((number % 5) == 0) result += " buzz";
+            if (result == "") result = number.ToString();
+            return result;
         }
     }
 }
